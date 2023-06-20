@@ -8,7 +8,7 @@ To generate a CSRF token in your form, you can use the csrf() function provided 
 
 ```html
 <form method="POST">
-    <?php csrf(); ?>
+    <?= csrf(); ?>
     <!-- Rest of the form fields -->
     <button type="submit">Submit</button>
 </form>
