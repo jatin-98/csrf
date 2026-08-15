@@ -14,19 +14,16 @@ A robust, framework-agnostic CSRF (Cross-Site Request Forgery) protection middle
 
 ## Installation
 
-This package is designed to be used locally and is not published to the public NPM registry.
-
 First, ensure you have `express-session` installed in your host project, as this package relies on it:
 
 ```bash
 npm install express-session
 ```
 
-Then, install this package via a local file path relative to your host project:
+Then, install this package directly from GitHub:
 
 ```bash
-# Assuming your host project is next to the `csrf` directory
-npm install ../csrf
+npm install https://github.com/jatin-98/csrf.git
 ```
 
 ---
